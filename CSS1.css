@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+    /* NAVBAR */
+
+nav{
+   
+    height: 35px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    background-color: rgb(86, 87, 87);
+    color: white;
+    position: fixed;
+
+}
+
+.search{
+    align-self: flex-end;
+}
+
+    /* SECTION 1 */
+
+.section1{
+
+    height: 400px;
+    width: 100%;
+    background-image: url(https://www.w3schools.com/w3images/parallax1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#p1{
+
+    background-color: black;
+    letter-spacing: 10px;
+}
+
+    /* SECTION 2 */
+
+.section2 {
+
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div1{
+
+    height: 200px;
+    width: 900px;
+    text-align: justify;
+}
+
+   /* SECTION 3 */
+
+.section3{
+    /* border: 2px solid; */
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.div2{
+    /* border: 2px solid; */
+    /* padding: 20px; */
+    height: 500px;
+    width: 400px;
+    text-align: center;
+
+}
+.img1{
+    width: 400px;
+    height: 340px;
+    opacity: 0.5;
+}
+.img1:hover{
+    opacity: 1;
+}
+
+    /* SECTION 4 */
+
+.section4{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 100%;
+    /* padding: 35px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.s1{
+    /* border:2px solid blue; */
+    height: 200px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+
+}
+.s2{
+    /* border: 1px solid green; */
+    height: 30px;
+    width: 850px;
+    background-color: gray;
+}
+
+.s3{
+    /* border: 1px solid red; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-self: center;
+    height: 30px;
+    width: 765px;
+}
+.s4{
+    /* border: 1px solid red; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 720px;
+}
+.s5{
+    /* border: 1px solid red; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 640px;
+}
+
+.t1{
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+        /* SECTION 5 */
+.section5{
+    height: 70px;
+    /* border: 2px solid; */
+    background-color: rgb(90, 83, 83);
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.s6{
+     height: 70px;
+    /* border: 2px solid; */
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    font-size: x-large;
+    text-align: center;
+}
+
+                /* SECTION 6 */
+.section6{
+    border: 2px solid;
+    height: 400px;
+    background-image: url(https://www.w3schools.com/w3images/parallax2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+                /* SECTION 7 */
+
+.section7{
+     height:auto; 
+}
+
+.s7{
+    /* border: 2px solid; */
+    height: 320;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.img2{
+    height: 160px;
+    width: 216px;
+    opacity: 0.6;
+
+}
+
+.img2:hover{
+    opacity: 1;
+}
+.button{
+    color: black;
+    background-color: gainsboro;
+    padding: 12px 24px !important;
+}
+
+                /* SECTION 8  */
+.section8{
+    /* border: 2px solid; */
+    height: 400px;
+    background-image: url(https://www.w3schools.com/w3images/parallax3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+                /* SECTION 9  */
+
+.section9{
+    /* border: 2px solid; */
+
+}             
+
+.img3{
+    height: 150px;
+    width: 280px;
+    border-radius: 2px;
+}
+.s8{
+    /* border: 2px solid; */
+    height: auto;
+    width: 800;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+input{
+    height: 30px;
+    border-radius: 0%;
+    width:200px;
+}
+
+.input1{
+    width:410px ;
+}
+.button1{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    position: absolute; top: 69%; left: 67%;
+    
+}
+
